@@ -1,4 +1,5 @@
 print("------------------------------- Program Kasir Sederhana Samet -------------------")
+print("==================================== Toko Pedo ============================== ")
 pembeli = input("Masukkan Nama pembeli: ")
 print("Nama Pembeli :", pembeli)
 
