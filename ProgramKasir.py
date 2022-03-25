@@ -1,11 +1,8 @@
 class kasir:
-    totalmkn,porsi=0
-    mkn=""
-    totalmnm=0
-    mnm=""
-    gelas=0
-    totalsemua=0
-    uang=0
+    totalmkn,porsi,gelas,totalsemua,totalmkn,totalmnm,uang=0
+    mkn,mnm=""
+
+ 
     def tampilan(self):
         print("------------------------------- Program Kasir Sederhana Samet -------------------")
         pembeli = input("Masukkan Nama pembeli: ")
@@ -86,7 +83,10 @@ class kasir:
         print("Kembalian\t: Rp", self.kembalian)
         print("===============================================================")
         print("===============================================================")
-    #Flow Control   
+
+
+    
+    #Manggil fungsi
     fungsimakanan()
     fungsiminuman()
 
